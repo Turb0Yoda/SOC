@@ -24,3 +24,7 @@ echo "installing caffeine"
 echo "-------------------------"
 sudo dnf install caffeine -y
 echo "-------------------------"
+echo "Installing the security-lab group of programs"
+echo "-------------------------"
+sudo dnf groupinstall security-lab -y
+echo "-------------------------"
